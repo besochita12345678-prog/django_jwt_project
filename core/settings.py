@@ -139,3 +139,9 @@ REST_FRAMEWORK = {
     ),
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'BESO DRF JWT Auth API',
+    'DESCRIPTION': 'Authentication API with JWT: register, login, logout, profile edit, account deletion.',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+}
